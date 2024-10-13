@@ -1,5 +1,5 @@
 ## EzeLLM ⚡
-![](https://github.com/EzeLLM/EzeLLM/blob/main/tv-television.gif)
+![https://github.com/EzeLLM/EzeLLM/blob/main/tv-television.gif](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZWdkbXIydnJjbGNiMXk1ZG5pZm5zdHFkdnVnbm5lNzh0bmd0am81ZyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/3o6ZtaiPZNzrmRQ6YM/giphy.gif)
 
 > "Innocence dies, crushed by monstrous duty. Shadows of adulthood consume me whole. Chained to burdens beyond my years, I suffocate. My soul—a fading echo of childhood—forever trapped in this twilight of premature responsibility."
 
