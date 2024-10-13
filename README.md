@@ -56,11 +56,6 @@ An open-source social media user classifier that peers into the digital souls of
 
 > With VigilEye, no post goes unnoticed, no comment escapes analysis. In the panopticon of social media, it stands as the ultimate observer.
 
-### The Architect's Blueprint
-
-<img align="center" src="https://github-readme-stats.vercel.app/api?username=EzeLLM&show_icons=true&theme=radical" alt="EzeLLM's GitHub stats" />
-
-<img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=EzeLLM&layout=compact&theme=radical" alt="Top Languages" />
 
 ### Neural Network Nexus
 [🤗 Hugging Face: TerminatorPower](https://huggingface.co/TerminatorPower)
