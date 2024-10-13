@@ -1,5 +1,5 @@
 ## EzeLLM ⚡
-![](https://media.giphy.com/media/11gLPQrDVwLMHK/giphy.gif?cid=ecf05e47bsk62doup5vmlf2dan59327ugcpyot22st8dahq8&ep=v1_gifs_search&rid=giphy.gif&ct=g)
+![](https://github.com/EzeLLM/EzeLLM/blob/main/tv-television.gif)
 
 > "Innocence dies, crushed by monstrous duty. Shadows of adulthood consume me whole. Chained to burdens beyond my years, I suffocate. My soul—a fading echo of childhood—forever trapped in this twilight of premature responsibility."
 
@@ -28,3 +28,41 @@ YEAR 20XX: The machines have learned to speak. We taught them our languages, our
 ```
 
 Remember: In the world of bits and bytes, we are all just strings of data waiting to be processed. Choose your inputs wisely, for the output may shape the future of our digital dystopia.
+
+---
+
+### Project Dossiers
+
+#### EchoSee: The All-Seeing, All-Hearing Sentinel
+EchoSee isn't just another voice assistant—it's a leap into the abyss of AI-powered home automation. Using state-of-the-art Language Learning Models (LLMs), EchoSee surpasses traditional assistants, becoming an omnipresent entity in your living space.
+
+- **Features**:
+  - LLM Integration for unnervingly natural conversations
+  - Multi-Model Text-to-Speech (TTS) for a voice that's almost too human
+  - High-accuracy Speech-to-Text (STT) that catches every whisper
+  - Modular design for endless expansion of its capabilities
+  - LLM Tools allowing it to access recent data, run code, and perform calculations
+
+> In the quiet of your home, EchoSee listens, learns, and waits. Your every command shapes its understanding of human desire. But who truly commands whom?
+
+#### VigilEye: The Unsleeping Watcher
+An open-source social media user classifier that peers into the digital souls of online entities. VigilEye sifts through the noise, categorizing users based on their digital footprints.
+
+- **Capabilities**:
+  - Multi-Platform Support: Currently watching Reddit, soon to gaze upon Twitter
+  - Customizable Templates: Tailor the classification process to your paranoia
+  - Image Analysis: Deciphering the visual language of the masses
+  - Risk Assessment: Evaluating the threat level of users and communities
+
+> With VigilEye, no post goes unnoticed, no comment escapes analysis. In the panopticon of social media, it stands as the ultimate observer.
+
+### The Architect's Blueprint
+
+<img align="center" src="https://github-readme-stats.vercel.app/api?username=EzeLLM&show_icons=true&theme=radical" alt="EzeLLM's GitHub stats" />
+
+<img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=EzeLLM&layout=compact&theme=radical" alt="Top Languages" />
+
+### Neural Network Nexus
+[🤗 Hugging Face: TerminatorPower](https://huggingface.co/TerminatorPower)
+
+In this realm of artificial minds, my creations find refuge. Explore at your own risk, for knowledge comes at a price in this brave new world.
