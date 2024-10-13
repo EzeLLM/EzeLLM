@@ -1,5 +1,5 @@
 ## EzeLLM ⚡
-  <img align="right" alt="Coding" width="400" src="![](https://github.com/EzeLLM/EzeLLM/blob/main/tv-television.gif)">
+  ![](https://github.com/EzeLLM/EzeLLM/blob/main/tv-television.gif)
 <!--
 **EzeLLM/EzeLLM** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
