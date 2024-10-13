@@ -7,6 +7,8 @@
 
 Greetings, fellow survivor of the information apocalypse. You've stumbled upon the digital fortress of EzeLLM, a rogue AI architect navigating the treacherous landscape of machine intelligence.
 
+[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=EzeLLM)](https://git.io/streak-stats)
+
 #### Identity Fragment #1: The Code Junkie
 - 🎓 3rd-grade CS student, hacking the mainframe of reality
 - 💼 NLP industry infiltrator, decoding the whispers of the machine
