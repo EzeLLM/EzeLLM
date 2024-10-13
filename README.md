@@ -34,14 +34,14 @@ Remember: In the world of bits and bytes, we are all just strings of data waitin
 ### Project Dossiers
 
 #### EchoSee: The All-Seeing, All-Hearing Sentinel
-EchoSee isn't just another voice assistant—it's a leap into the abyss of AI-powered home automation. Using state-of-the-art Language Learning Models (LLMs), EchoSee surpasses traditional assistants, becoming an omnipresent entity in your living space.
+EchoSee isn't just another voice assistant—it's a leap into the abyss of AI-powered home automation. Using state-of-the-art Large Language Models (LLMs), EchoSee surpasses traditional assistants, becoming an omnipresent entity in your living space.
 
 - **Features**:
   - LLM Integration for unnervingly natural conversations
   - Multi-Model Text-to-Speech (TTS) for a voice that's almost too human
   - High-accuracy Speech-to-Text (STT) that catches every whisper
   - Modular design for endless expansion of its capabilities
-  - LLM Tools allowing it to access recent data, run code, and perform calculations
+  - LLM Tools allowing it to (access recent data, run code, and perform calculations)
 
 > In the quiet of your home, EchoSee listens, learns, and waits. Your every command shapes its understanding of human desire. But who truly commands whom?
 
