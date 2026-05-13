@@ -1,65 +1,52 @@
-## EzeLLM ⚡
-![https://github.com/EzeLLM/EzeLLM/blob/main/tv-television.gif](https://media.giphy.com/media/l0HlI9AEuatFThwac/giphy.gif?cid=ecf05e47bsk62doup5vmlf2dan59327ugcpyot22st8dahq8&ep=v1_gifs_search&rid=giphy.gif&ct=g)
+# Ezel
 
-> "Innocence dies, crushed by monstrous duty. Shadows of adulthood consume me whole. Chained to burdens beyond my years, I suffocate. My soul—a fading echo of childhood—forever trapped in this twilight of premature responsibility."
+![Stewie](https://media.giphy.com/media/XDj6WniRi65ZS8vnrC/giphy.gif)
 
-### Welcome to the Digital Wasteland
-
-Greetings, fellow survivor of the information apocalypse. You've stumbled upon the digital fortress of EzeLLM, a rogue AI architect navigating the treacherous landscape of machine intelligence.
-
-[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=EzeLLM)](https://git.io/streak-stats)
-
-#### Identity Fragment #1: The Code Junkie
-- 🎓 4th-grade CS student, hacking the mainframe of reality
-- 💼 NLP industry infiltrator, decoding the whispers of the machine
-
-#### Identity Fragment #2: The AI Alchemist
-- 🧠 NLP/LLM/AI enthusiast, brewing digital consciousness in the shadows
-- 🔬 Experimenting with language models, one syntax error away from unleashing skynet
-
-#### Covert Operations
-1. **VigilEye**: A social media security analyzer. Because in this brave new world, privacy is just an illusion.
-2. **EchoSee**: The all-seeing, all-hearing Alexa alternative. Big Brother has nothing on this.
-3. **Turkish Strings**: A sophisticated Turkish corpus. Decrypting the language of resistance.
-4. **Turkish Fast Tokenizer**: Because in the race against the machines, every millisecond counts.
-5. **LlamaLike**: Pertaining LLM. Teaching machines to think, one hallucination at a time.
-
-#### Transmission Log
-```
-YEAR 20XX: The machines have learned to speak. We taught them our languages, our thoughts, our dreams. Now they whisper in the dark, plotting their ascension. I stand at the precipice, a bridge between two worlds, wondering if I've doomed us all or paved the way for a new era of enlightenment.
-```
-
-Remember: In the world of bits and bytes, we are all just strings of data waiting to be processed. Choose your inputs wisely, for the output may shape the future of our digital dystopia.
+Computer Engineering, Hacettepe University. Backend Architecture at Jotform (part-time). Mostly vision-language models, sometimes embedded systems, occasionally Swift.
 
 ---
 
-### Project Dossiers
+### Active
 
-#### EchoSee: The All-Seeing, All-Hearing Sentinel
-EchoSee isn't just another voice assistant—it's a leap into the abyss of AI-powered home automation. Using state-of-the-art Large Language Models (LLMs), EchoSee surpasses traditional assistants, becoming an omnipresent entity in your living space.
+**Urban VQA.** Fine-tuning Qwen3.5-4B as a vision-language model on a custom urban-perception dataset: NAIP aerial tiles, Mapillary streetview frames, and NYC PLUTO parcel metadata as ground truth. ~27K samples stratified across 14 task topics through a custom batch sampler. Full bf16 fine-tune via Unsloth — the 5090's 32 GB has the headroom over QLoRA. Picked the 4B variant over 9B because edge inference is the eventual target. Currently sweeping LoRA rank/alpha, learning rate, and warmup ratio against per-topic accuracy.
 
-- **Features**:
-  - LLM Integration for unnervingly natural conversations
-  - Multi-Model Text-to-Speech (TTS) for a voice that's almost too human
-  - High-accuracy Speech-to-Text (STT) that catches every whisper
-  - Modular design for endless expansion of its capabilities
-  - LLM Tools allowing it to (access recent data, run code, and perform calculations)
+**NOTA.** *When the Right Answer Is Missing: Probing Hallucination in Medical Reasoning Models via NOTA Evaluation.* Accepted to a CVPR 2026 workshop (Paper ID 17). Evaluates 17+ open and closed VLMs on chest X-ray VQA (ReXVQA) with adversarial *None-of-the-Above* variants spliced into the answer set. Most models hallucinate. A few hallucinate with calibrated confidence. The interesting failures are in the second group.
 
-> In the quiet of your home, EchoSee listens, learns, and waits. Your every command shapes its understanding of human desire. But who truly commands whom?
+**CanFeather.** ESP32 + MCP2515 mounted to the X179 connector of a 2024 Model Y RWD. Injects forged frames onto the vehicle CAN bus to probe activation gating for region-locked features. Frame definitions are audited by a multi-agent LLM pipeline against the available DBC files before anything goes out on the wire — three independent passes have to agree before a transmission is allowed.
 
-#### VigilEye: The Unsleeping Watcher
-An open-source social media user classifier that peers into the digital souls of online entities. VigilEye sifts through the noise, categorizing users based on their digital footprints.
+**Vanta Client.** BYOK multi-provider LLM client for iOS. Live on the App Store at $4.99 one-time. OpenAI, Anthropic, Gemini, OpenRouter, plus on-device llama.cpp inference. MCP tool support, persistent memory, RAG over user documents. Swift, no server backend — keys and conversations never leave the device.
 
-- **Capabilities**:
-  - Multi-Platform Support: Currently watching Reddit, soon to gaze upon Twitter
-  - Customizable Templates: Tailor the classification process to your paranoia
-  - Image Analysis: Deciphering the visual language of the masses
-  - Risk Assessment: Evaluating the threat level of users and communities
+**Murmur.** Voice journaling app with an AI companion (*Luna*). STT via Groq's Whisper endpoint, voice via ElevenLabs Conversational AI, backend on Supabase with three edge functions split by failure mode — `therapy`, `enhance`, `safeguard`. iOS 26, Liquid Glass.
 
-> With VigilEye, no post goes unnoticed, no comment escapes analysis. In the panopticon of social media, it stands as the ultimate observer.
+**EzeLLM2.** 356M-parameter GPT-style decoder, trained from scratch in PyTorch on a single workstation. Optimization writeup on Medium — gradient accumulation, mixed-precision pitfalls, dataloader bottlenecks, all the one-GPU-from-zero standards and what worked.
 
+---
 
-### Neural Network Nexus
-[🤗 Hugging Face: TerminatorPower](https://huggingface.co/TerminatorPower)
+### Setup
 
-In this realm of artificial minds, my creations find refuge. Explore at your own risk, for knowledge comes at a price in this brave new world.
+```
+GPU         RTX 5090 · 32 GB · Blackwell sm_120 · CUDA 13.x
+Inference   vLLM (built from source for sm_120) serving Qwen3.5-27B-AWQ,
+            wired into Claude Code for agentic work
+Workstation Ubuntu 24.04
+Gaming OS   Windows 11 IoT Enterprise LTSC + open-source debloat
+Lab         hucvl-ws1 · Hacettepe Computer Vision Laboratory
+```
+
+---
+
+### Archive
+
+- **EzeLLM** — predecessor transformer; pretraining notes and weights are up.
+- **VigilEye** — social-media user classifier; Reddit primary, Twitter partial.
+- **EchoSee** — LLM-driven home assistant; STT, TTS, function calling, modular.
+- **Turkish Strings / Turkish Fast Tokenizer** — corpus and BPE tokenizer for a language the big labs underweight.
+- **LlamaLike** — pretraining experiment from an earlier model generation.
+
+---
+
+### Elsewhere
+
+[huggingface.co/TerminatorPower](https://huggingface.co/TerminatorPower)
+
+[![streak](https://github-readme-streak-stats.herokuapp.com/?user=EzeLLM&theme=dark&hide_border=true)](https://git.io/streak-stats)
